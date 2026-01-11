@@ -1,4 +1,4 @@
-import { name, edad } from './bases/01-types'
+import { name, edad } from './bases/01-TiposDatos.ts'
 import './style.css'
 import { setupCounter } from './counter.ts'
 
