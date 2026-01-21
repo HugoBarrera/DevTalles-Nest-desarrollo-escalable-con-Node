@@ -12,8 +12,6 @@ export class CarsController {
   @Get(':id')
   getCarById(@Param('id') id: string) {
     console.log({ id });
-    return {
-      id,
-    };
+    return this.cars[id];
   }
 }
